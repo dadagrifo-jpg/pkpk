@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ягідний круасан</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#ffffff;
+color:#8b6b55;
+}
+
+header{
+background:#8b6b55;
+color:white;
+text-align:center;
+padding:25px;
+font-size:28px;
+letter-spacing:2px;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+text-align:center;
+}
+
+img{
+width:420px;
+max-width:90%;
+border-radius:10px;
+box-shadow:0 15px 35px rgba(0,0,0,0.2);
+margin-top:20px;
+}
+
+h2{
+margin-top:50px;
+border-bottom:2px solid #8b6b55;
+padding-bottom:10px;
+}
+
+button{
+margin-top:30px;
+padding:12px 28px;
+font-size:16px;
+background:#8b6b55;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+opacity:0.85;
+}
+
+.more{
+display:none;
+margin-top:30px;
+padding:20px;
+border:2px solid #8b6b55;
+border-radius:8px;
+}
+
+footer{
+margin-top:60px;
+background:#8b6b55;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+Карамельний круасан
+</header>
+
+<div class="container">
+
+<img src="https://i.postimg.cc/DZCwvNgv/Chat-GPT-Image-22-noab-2025-g-13-53-41.png" alt="Карамельний круасан">
+
+<h2>З чого його роблять</h2>
+
+<p>
+Цей ягідний круасан виготовляється з відбірної пшениці,
+яка виросла на зелених лугах біля Мукачева.
+Зерно перемелюється у ніжне борошно,
+з якого створюється повітряне листкове тісто.
+</p>
+
+<p>
+Всередину додається солодка тягуча та солона карамель начинка,
+яка під час випікання стає м’якою та ароматною
+і надає круасану насиченого карамельного смаку .
+</p>
+
+<h2>Як його печуть</h2>
+
+<p>
+Випікають ці круасани на окраєні великого міста Мукачева
+у закарпатському селі Верхній Коропець.
+</p>
+
+<p>
+Тісто складається у багато тонких шарів,
+формується вручну і випікається у гарячій печі
+приблизно 20 хвилин до золотистої хрусткої скоринки.
+</p>
+
+<button onclick="showMore()">Дізнатися більше</button>
+
+<div id="more" class="more">
+
+<h2>Додаткова інформація</h2>
+
+<p>
+Перед випіканням тісто залишають відпочивати
+кілька годин, щоб кожен шар став максимально
+повітряним та ніжним.
+</p>
+
+<p>
+Ягідна начинка додається безпосередньо перед
+формуванням круасана, тому під час випікання
+вона рівномірно розподіляється всередині
+та створює яскравий ягідний аромат.
+</p>
+
+</div>
+
+</div>
+
+<footer>
+© Пекарня Верхній Коропець
+</footer>
+
+<script>
+
+function showMore(){
+let block=document.getElementById("more");
+
+if(block.style.display==="block"){
+block.style.display="none";
+}else{
+block.style.display="block";
+}
+
+}
+
+</script>
+
+</body>
+</html>
